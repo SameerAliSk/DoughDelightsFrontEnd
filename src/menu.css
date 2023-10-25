@@ -1,0 +1,51 @@
+.menu-heading {
+  border: 0;
+  color: #e61a39;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.menu-card-background {
+  background-image: url("https://www.dominos.co.in/theme2/front/images/menu-images/red.webp");
+  background-size: cover;
+  color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  min-height: 210px;
+}
+.menu-card-heading {
+  font-size: 28px;
+}
+.menu-card-para {
+  font-size: 14px;
+}
+.menu-custom-btn {
+  padding: 10px 35px;
+  text-transform: uppercase;
+  background: #fff !important;
+  color: #e61a39 !important;
+  border: 1px solid #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.42857143;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.img {
+  width: 300px;
+  height: auto;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
+.image {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}

@@ -1,0 +1,27 @@
+.img {
+  width: 250px;
+}
+.pizza-card-heading {
+  font-size: 28px;
+  color: #15803d;
+  font-weight: 700;
+}
+.pizza-card-para {
+  color: #15803d;
+  font-size: 16px;
+}
+.pizza-card-inside-heading {
+  flex-basis: auto;
+  justify-content: flex-start;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.pizza-card-inside-para {
+  flex-basis: auto;
+  line-height: 1.2;
+  font-size: 1rem;
+  color: rgba(122, 122, 122, 0.87);
+  margin-top: 0.5rem;
+  width: 90%;
+  overflow: hidden;
+}
