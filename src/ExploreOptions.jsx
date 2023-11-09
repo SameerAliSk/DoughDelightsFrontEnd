@@ -1,7 +1,20 @@
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { useNavigate } from "react-router-dom";
 function ExploreOptions() {
+  const navigate = useNavigate();
+  const OnClickDiscoverPizza = () => {
+    navigate("/menu", { relative: true });
+  };
+  const OnClickCatering = () => {
+    navigate("/catering-service", { relative: true });
+  };
+  const OnClickFindStores = () => {
+    navigate("/find-stores", { relative: true });
+  };
+  const OnClickBirthdayParty = () => {
+    navigate("/birthday-party", { relative: true });
+  };
   return (
     <div className="coupons-offers">
       <h2 className="carousel-title">Explore</h2>
@@ -26,7 +39,13 @@ function ExploreOptions() {
               </p>
             </div>
             <div className="card-footer text-center">
-              <small className="text-danger font-bold">DISCOVER PIZZA</small>
+              <small
+                className="text-danger font-bold"
+                onClick={OnClickDiscoverPizza}
+                style={{ cursor: "pointer" }}
+              >
+                DISCOVER PIZZA
+              </small>
             </div>
           </div>
         </div>
@@ -48,7 +67,11 @@ function ExploreOptions() {
               </p>
             </div>
             <div className="card-footer text-center">
-              <small className="text-danger font-bold">
+              <small
+                className="text-danger font-bold"
+                style={{ cursor: "pointer" }}
+                onClick={OnClickFindStores}
+              >
                 FIND DOMINO&apos;S STORE
               </small>
             </div>
@@ -72,7 +95,13 @@ function ExploreOptions() {
               </p>
             </div>
             <div className="card-footer text-center">
-              <small className="text-danger font-bold">BOOK NOW</small>
+              <small
+                className="text-danger font-bold"
+                style={{ cursor: "pointer" }}
+                onClick={OnClickBirthdayParty}
+              >
+                BOOK NOW
+              </small>
             </div>
           </div>
         </div>
@@ -94,7 +123,13 @@ function ExploreOptions() {
               </p>
             </div>
             <div className="card-footer text-center">
-              <small className="text-danger font-bold">BOOK NOW</small>
+              <small
+                className="text-danger font-bold"
+                style={{ cursor: "pointer" }}
+                onClick={OnClickCatering}
+              >
+                BOOK NOW
+              </small>
             </div>
           </div>
         </div>

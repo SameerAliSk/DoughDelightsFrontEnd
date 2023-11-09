@@ -1,12 +1,18 @@
 import { NavLink } from "react-router-dom";
 import "./index.css";
+import { useNavigate } from "react-router-dom";
 function Navbar() {
+  const navigate = useNavigate();
+  const OnClickLogo = () => {
+    navigate("/", { relative: true });
+  };
   return (
     <nav className="dd-navbar navbar-fixed-top flex items-center justify-around bg-slate-50">
       <div>
         <img
           src="https://res.cloudinary.com/dy2gsniki/image/upload/v1696568486/t8naiebpvf7hf1zx0x1v.jpg"
           className="logo"
+          onClick={OnClickLogo}
         />
       </div>
 
@@ -17,18 +23,13 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink className="ul-content" to="/stores">
+          <NavLink className="ul-content" to="/find-stores">
             DOUGH DELIGHTS STORES
           </NavLink>
         </li>
         <li>
-          <NavLink className="ul-content" to="/gift-card">
-            GIFT CARD
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="ul-content" to="/enquiry">
-            CORPORATE ENQUIRY
+          <NavLink className="ul-content" to="/nutritional-info">
+            NUTRITIONAL INFO
           </NavLink>
         </li>
         <li>

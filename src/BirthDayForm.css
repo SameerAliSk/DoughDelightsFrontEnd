@@ -1,9 +1,9 @@
 @import url("https://fonts.cdnfonts.com/css/zapfino");
 .birthday-background-header {
-  background-image: url("https://res.cloudinary.com/dy2gsniki/image/upload/v1697092522/bulbul-ahmed-LBoXL7HvbZY-unsplash_qp0htq.jpg");
+  background-image: url("https://res.cloudinary.com/dy2gsniki/image/upload/v1699435625/bday-party_1_g7bizj.jpg");
   width: 100vw;
   background-size: cover;
-  height: 50vh;
+  height: 80vh;
   box-shadow: 10px 10px #fff;
   background-color: #fff;
 }
@@ -14,8 +14,13 @@
   justify-content: flex-end;
 }
 .birthday-page-heading {
-  color: #db2777;
-  font-size: 35px;
-  font-family: "Zapfino", sans-serif;
-  font-weight: 600;
+  text-transform: uppercase;
+  color: #e61a39;
+  font-size: 31px;
+  font-weight: 800;
+}
+.birthday-page-para {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 700;
 }

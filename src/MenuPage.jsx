@@ -1,7 +1,12 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "./menu.css";
-function Menu() {
+import { useNavigate } from "react-router-dom";
+function MenuPage() {
+  const navigate = useNavigate();
+  const OnClickVegPizzaMenu = () => {
+    navigate("/menu/veg-pizzas", { relative: true });
+  };
   return (
     <>
       <Navbar />
@@ -23,7 +28,12 @@ function Menu() {
                   A delight for veggie lovers! Choose from our wide range of
                   delicious vegetarian pizzas, it&apos;s softer and tastier
                 </p>
-                <button className="menu-custom-btn">View All</button>
+                <button
+                  className="menu-custom-btn"
+                  onClick={OnClickVegPizzaMenu}
+                >
+                  View All
+                </button>
               </div>
             </div>
           </div>
@@ -105,4 +115,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default MenuPage;

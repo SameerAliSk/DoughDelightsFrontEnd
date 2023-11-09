@@ -6,7 +6,7 @@ import HomeHeader from "./HomeHeader";
 import OffersCarousel from "./OffersCarousel";
 import ExploreOptions from "./ExploreOptions";
 import Footer from "./Footer";
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
       <Navbar />

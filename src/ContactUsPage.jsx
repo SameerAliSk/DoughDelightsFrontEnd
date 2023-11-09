@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaClock } from "react-icons/fa";
 import { HiMailOpen, HiLocationMarker } from "react-icons/hi";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-function ContactUs() {
+function ContactUsPage() {
   return (
     <>
       <Navbar />
@@ -122,4 +122,4 @@ function ContactUs() {
   );
 }
 
-export default ContactUs;
+export default ContactUsPage;
