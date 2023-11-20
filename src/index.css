@@ -427,3 +427,213 @@ fieldset label {
 input[type="date"] {
   padding-left: 5px;
 }
+.about-header {
+  background-image: url("https://res.cloudinary.com/dy2gsniki/image/upload/v1696924252/georgia-z-JG5lgvc57qE-unsplash_wcbffh.jpg");
+  width: 100vw;
+  background-size: cover;
+  height: 50vh;
+  box-shadow: 10px 10px #fff;
+  background-color: #fff;
+}
+.about-h2 {
+  color: red;
+  font-size: 60px;
+}
+.about-h1 {
+  color: #fff;
+  font-size: 90px;
+}
+.about-us-image {
+  height: 300px;
+  width: 400px;
+  
+
+}
+.about-us-h3 {
+  color: #d5A632;
+  font-size: 60px;
+
+}
+.about-us-p {
+  color: #000000;
+  font: 16px Poppins;
+  font-weight: 600;
+
+}
+.privacy-header {
+  background-image: url("https://res.cloudinary.com/dbatijrbu/image/upload/v1698561983/1330_pcnumm.jpg");
+  width: 100vw;
+  background-size: cover;
+  height: 60vh;
+  box-shadow: 10px 10px #fff;
+  background-color: #fff;
+}
+.privacy-conatiner h3 {
+  color: #e61a39;
+  margin: 15px 0px 5px;
+  font-size: 24px;
+  text-transform: uppercase;
+  /* font-family: big-john; */
+  font-weight: 750;
+}
+.privacy-conatiner p {
+  color: #333;
+  margin: 0 0 10px;
+  font-size: 15px;
+  /* font-family: DIN-alternate-medium; */
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.42857143;
+}
+.privacy-conatiner ul li {
+  color: #333;
+  margin: 0 0 10px;
+  font-size: 15px;
+  /* font-family: DIN-alternate-medium; */
+  font-weight: 500;
+  text-align: justify;
+  line-height: 1.42857143;
+}
+.accordion {
+  width: 700px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding-top: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-right: 48px;
+  cursor: pointer;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  align-items: center;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ced4da;
+}
+
+
+.title,
+.icon {
+  font-size: 16px;
+  font-weight: 500;
+}
+.title {
+  margin-bottom: 0px;
+}
+.content-box {
+  grid-column: 2 / -1;
+  padding-bottom: 16px;
+  line-height: 1.6;
+}
+
+.content-box ul {
+  color: #868e96;
+  margin-left: 16px;
+  margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* OPEN STATE */
+.open {
+  border-top: 4px solid #087f5b;
+}
+
+.open .number,
+.open .title {
+  color: #087f5b;
+}
+.item p {
+  margin-bottom: 0px;
+}
+.faq-h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.giftcard-header {
+  background-image: url("https://res.cloudinary.com/dbatijrbu/image/upload/v1698821716/giftcardbanner_wjm25p.png");
+  width: 100vw;
+  background-size: cover;
+  height: 64vh;
+  box-shadow: 10px 10px #fff;
+  background-color: #fff;
+}
+.g-heading {
+  font-size: 28px;
+  color: #006699;
+  padding: 28px 0px;
+  text-align: center;
+}
+.gift-container {
+  padding: 1em;
+  margin: 1em;
+  background-color: #EEE;
+  display: inline-block;
+  width: 25%;
+  border: 0.1em solid #AAA;
+  border-radius: 0.5em;
+  vertical-align: top;
+}
+.gift-container h5 {
+  margin-bottom: 1em;
+  color: #555;
+  font-size: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+} 
+.gift-container p {
+  margin: 1em 0;
+  line-height: 1.5;
+  min-height: 150px;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  color: #333;
+}
+
+.disclaimer h1 {
+  color: rgb(0, 121, 174);
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.disclaimer h2 {
+  font-size: 22px;
+  padding: 5px 0 10px;
+  color: #000000;
+  font-weight: 700;
+}
+.disclaimer p {
+  font-size: 15px;
+    margin: 0 0 10px;
+    color: #000000;
+    font-weight: 500;
+}
+.disclaimer ul li {
+  font-size: 15px;
+    margin: 0 0 10px;
+    color: #000000;
+    font-weight: 500;
+}
+

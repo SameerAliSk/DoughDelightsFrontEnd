@@ -1,0 +1,20 @@
+/* eslint-disable react/prop-types */
+
+import "./Terms&Conditions.css"
+import EachTermAndCondition from "./EachTerm&Condition";
+
+const TermsAndConditions = [{question:"Everyday Value Offers",answer:["Offer applicable only on purchase of every 2 pizzas from Everyday Value Offers Section.","Everyday Value Offer is applicable only Regular and Medium size Pizzas.","Everyday Value Offer does not apply to Pizza Mania OR Combos.","Offer is applicable on Domino’s own ordering channels (apps, mobile and desktop ordering site and in-store ordering), but not applicable on Aggregators."]},{question:"Order Delivery",answer:["Your address falling in the defined delivery area of the nearest restaurant","The delivery address being mapped to the nearest restaurant that delivers in your area","Availability of the restaurant online","In case the delivery locality is not listed in the restaurant locator, delivery of orders cannot be placed; However you may choose to pick up your order from the nearest Domino's restaurant"]},{question:"Menu",answer:["In case certain menu items are not listed in the menu page, the particular restaurant does not carry those items in the menu","In case of non-availability of ordered product at the mapped restaurant, the order would not be executed. Same would be informed by the restaurant near you","Drinks (350ml) shall be available at the discounted rate of Rs.40 solely with the Pizza Mania range","The term “Drink (350ml)” shall denote 350ml of drinks dispensed through PMX machine","Surprise gift – new customer (Choco Lava Cake)” worth Rs. 109/- or as applicable to be issued for zero value to the customers making their first order via mobile app, pwa, desktop channels and store. Offer applicable in limited stores."]},{question:"NONG (No Onion No Garlic) Pizza T&C",answer:["NONG (No Onion No Garlic) Pizzas are available across selected restaurants only in Gujarat","The ingredients used in the preparation of NONG pizza do not have Onion or Garlic in any form","Please Note : Oregano seasoning contains Garlic. Oregano seasoning sachets are available separately","Tomato ketchup sachet / Tomato sauce bottles placed at Dine In contains onion/garlic"]},{question:"Modify / Cancel the Online Order",answer:["The online order cannot be modified.","Cancellation of Order by Customer is Applicable only for Cash on Delivery Orders and in selected stores only.","Cancellation of Order by Customer will not be chargeable within 60 seconds of order placement.","Cancellation of Order by Customer is applicable for orders placed via Domino's India Application and is not applicable for orders placed from any other source.","Cancellation of order will not be allowed once the delivery executive reaches the Customer Location (first barrier point).","Cancellation will be free if order is not delivered till 60 mins for regular days and 90mins during festivals (festivals/big occasions like New Year eve, Ganesh Festival, Christmas, Durga Pooja, etc).","You can get updated on the status of the order by calling the restaurant directly.","In case the order which is paid through digital payment method is cancelled due to non-availability of the ordered product at the restaurant, the amount will be returned by reversing the transaction by Domino's restaurant. This refund will be returned on the actual source within 5 to7 working days. However, Domino's is not responsible for any delay on the bank side."]},]
+
+
+export default function TermsAndConditionsText() {
+  
+  return (
+    <div className="font-sans" style={{backgroundColor:"#f5f5f5"}}>
+      <h1 className="faq-heading text-center" style={{color:"red"}}>Terms{" "} &{" "} Conditions </h1>
+        <section className="faq-container">
+          
+        {TermsAndConditions.map((eachQuestion)=> <EachTermAndCondition question={eachQuestion.question} answer ={eachQuestion.answer} key={eachQuestion.question} />)}
+        </section>
+    </div>
+  )
+  }

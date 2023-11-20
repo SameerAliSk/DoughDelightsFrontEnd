@@ -1,6 +1,5 @@
 import "./footer.css";
 import FollowUs from "./followUs";
-
 function Footer() {
   return (
     <>
@@ -37,7 +36,7 @@ function Footer() {
               <h4>Company</h4>
               <ul>
                 <li>
-                  <a href="#">About Us</a>
+                  <a href="/about-us">About Us</a>
                 </li>
                 <li>
                   <a href="#">Leadership</a>
@@ -46,7 +45,7 @@ function Footer() {
                   <a href="#">Feedback</a>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="/contact-us">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -54,16 +53,16 @@ function Footer() {
               <h4>Our Policies</h4>
               <ul>
                 <li>
-                  <a href="#">Disclaimer</a>
+                  <a href="/disclaimer">Disclaimer</a>
                 </li>
                 <li>
-                  <a href="#">Terms & Conditions</a>
+                  <a href="/terms-and-conditions">Terms & Conditions</a>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/privacy-policy">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="#">FAQs & Help</a>
+                  <a href="/faq">FAQs & Help</a>
                 </li>
               </ul>
             </div>

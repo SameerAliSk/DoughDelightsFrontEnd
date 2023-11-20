@@ -2,13 +2,17 @@ import HomePage from "./HomePage";
 import ContactUsPage from "./ContactUsPage";
 import MenuPage from "./MenuPage";
 
-import Disclaimer from "./Disclaimer";
+import DisclaimerPage from "./DisclaimerPage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CateringServicePage from "./CateringServicePage";
 import FindStoresPage from "./FindStoresPage";
 import ProductCardPage from "./ProductCardPage";
 import NutritionPage from "./NutritionPage";
 import BirthdayPartyPage from "./BirthdayPartyPage";
+import AboutUsPage from "./AboutUsPage";
+import FaqPage from "./FaqPage"
+import PrivacyPolicyPage from "./PrivacyPolicyPage";
+import TermsAndConditionsPage from "./Terms&ConditionsPage";
 function App() {
   return (
     <BrowserRouter>
@@ -19,13 +23,17 @@ function App() {
         <Route exact path="/birthday-party" element={<BirthdayPartyPage />} />
         <Route exact path="/contact-us" element={<ContactUsPage />} />
         <Route exact path="/menu/veg-pizzas" element={<ProductCardPage />} />
-        <Route exact path="/disclaimer" element={<Disclaimer />} />
+        <Route exact path="/disclaimer" element={<DisclaimerPage />} />
         <Route exact path="/nutritional-info" element={<NutritionPage />} />
         <Route
           exact
           path="/catering-service"
           element={<CateringServicePage />}
         />
+        <Route exact path="/about-us" element = {<AboutUsPage/>} />
+        <Route exact path="/faq" element={<FaqPage/>}/>
+        <Route exact path="/privacy-policy" element={<PrivacyPolicyPage/>}/>
+        <Route exact path="/terms-and-conditions" element={<TermsAndConditionsPage/>}/>
       </Routes>
     </BrowserRouter>
   );

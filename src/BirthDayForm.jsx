@@ -1,6 +1,11 @@
 import "./BirthDayForm.css";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 function BirthDayForm() {
+  const navigate = useNavigate();
+  const onClickOrderOnline = () => {
+    navigate("/menu/veg-pizzas", { relative: true });
+  };
   let inputRef = useRef();
   return (
     <div>
@@ -8,7 +13,7 @@ function BirthDayForm() {
         <img
           src="https://res.cloudinary.com/dy2gsniki/image/upload/v1697091378/order-online_hselfz.png"
           alt="order-online content-start"
-          className="order-online-img"
+          className="order-online-img" onClick={onClickOrderOnline}
         />
       </div>
       <form className="font-sans">
