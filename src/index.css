@@ -35,22 +35,7 @@
   box-shadow: 10px 10px #fff;
   background-color: #fff;
 }
-.onine-order-button {
-  width: 20em;
-  border: 0;
-  height: 3em;
-  border-radius: 2px;
-  text-transform: uppercase;
-  cursor: pointer;
-  font-size: 20px;
-  text-align: center;
-  color: #ffffff;
-  box-shadow:
-    0 2px 2px 0 #024389,
-    0 0 2px 0 rgba(0, 0, 0, 0.12);
-  font-weight: 600;
-  border-radius: 5px;
-}
+
 .home {
   color: #0369a1;
   font-size: 14;
@@ -60,9 +45,7 @@
 .home:hover {
   text-decoration: underline;
 }
-.coupons-offers {
-  margin: 50px 90px 100px 90px;
-}
+
 .carousel-title {
   font-size: 30px;
   font-weight: bold;
@@ -446,25 +429,21 @@ input[type="date"] {
 .about-us-image {
   height: 300px;
   width: 400px;
-  
-
 }
 .about-us-h3 {
-  color: #d5A632;
+  color: #d5a632;
   font-size: 60px;
-
 }
 .about-us-p {
   color: #000000;
   font: 16px Poppins;
   font-weight: 600;
-
 }
 .privacy-header {
   background-image: url("https://res.cloudinary.com/dbatijrbu/image/upload/v1698561983/1330_pcnumm.jpg");
   width: 100vw;
   background-size: cover;
-  height: 60vh;
+  height: 70vh;
   box-shadow: 10px 10px #fff;
   background-color: #fff;
 }
@@ -525,7 +504,6 @@ input[type="date"] {
   color: #ced4da;
 }
 
-
 .title,
 .icon {
   font-size: 16px;
@@ -585,10 +563,10 @@ input[type="date"] {
 .gift-container {
   padding: 1em;
   margin: 1em;
-  background-color: #EEE;
+  background-color: #eee;
   display: inline-block;
   width: 25%;
-  border: 0.1em solid #AAA;
+  border: 0.1em solid #aaa;
   border-radius: 0.5em;
   vertical-align: top;
 }
@@ -599,7 +577,7 @@ input[type="date"] {
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-} 
+}
 .gift-container p {
   margin: 1em 0;
   line-height: 1.5;
@@ -626,14 +604,13 @@ input[type="date"] {
 }
 .disclaimer p {
   font-size: 15px;
-    margin: 0 0 10px;
-    color: #000000;
-    font-weight: 500;
+  margin: 0 0 10px;
+  color: #000000;
+  font-weight: 500;
 }
 .disclaimer ul li {
   font-size: 15px;
-    margin: 0 0 10px;
-    color: #000000;
-    font-weight: 500;
+  margin: 0 0 10px;
+  color: #000000;
+  font-weight: 500;
 }
-

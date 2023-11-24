@@ -1,0 +1,88 @@
+@media screen and (max-width: 767px) {
+  .each-card {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .coupons-offers {
+    margin: 50px 40px 100px 40px;
+  }
+  .offers-images {
+    width: 100%;
+    min-height: 150px;
+  }
+  .background-header {
+    background-image: url("https://res.cloudinary.com/dy2gsniki/image/upload/v1696570976/nlusa8hatkibf3jrvxot.jpg");
+    width: 100vw;
+    background-size: contain;
+    height: 15vh;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px #fff;
+    background-color: #fff;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+  }
+  .onine-order-button {
+    width: 13em;
+    border: 0;
+    height: 2em;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow:
+      0 2px 2px 0 #024389,
+      0 0 2px 0 rgba(0, 0, 0, 0.12);
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-right: 8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .coupons-offers {
+    margin: 50px 90px 100px 90px;
+  }
+  .offers-images {
+    width: 650px;
+    min-height: 150px;
+  }
+  .background-header {
+    background-image: url("https://res.cloudinary.com/dy2gsniki/image/upload/v1696570976/nlusa8hatkibf3jrvxot.jpg");
+    width: 100vw;
+    background-size: cover;
+    height: 25vh;
+    box-shadow: 10px 10px #fff;
+    background-color: #fff;
+    padding: 24rem 24rem 6rem 0;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+  }
+  .onine-order-button {
+    width: 20em;
+    border: 0;
+    height: 3em;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow:
+      0 2px 2px 0 #024389,
+      0 0 2px 0 rgba(0, 0, 0, 0.12);
+    font-weight: 600;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .coupons-offers {
+    margin: 50px 100px 100px 100px;
+  }
+  .each-card {
+    padding-bottom: 20px;
+  }
+}

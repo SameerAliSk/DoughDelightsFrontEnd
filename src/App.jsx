@@ -10,9 +10,11 @@ import ProductCardPage from "./ProductCardPage";
 import NutritionPage from "./NutritionPage";
 import BirthdayPartyPage from "./BirthdayPartyPage";
 import AboutUsPage from "./AboutUsPage";
-import FaqPage from "./FaqPage"
+import FaqPage from "./FaqPage";
 import PrivacyPolicyPage from "./PrivacyPolicyPage";
 import TermsAndConditionsPage from "./Terms&ConditionsPage";
+import SignUp from "./SignUp";
+import Nav from "./Nav";
 function App() {
   return (
     <BrowserRouter>
@@ -30,10 +32,16 @@ function App() {
           path="/catering-service"
           element={<CateringServicePage />}
         />
-        <Route exact path="/about-us" element = {<AboutUsPage/>} />
-        <Route exact path="/faq" element={<FaqPage/>}/>
-        <Route exact path="/privacy-policy" element={<PrivacyPolicyPage/>}/>
-        <Route exact path="/terms-and-conditions" element={<TermsAndConditionsPage/>}/>
+        <Route exact path="/signup" element={<SignUp />} />
+        <Route exact path="/about-us" element={<AboutUsPage />} />
+        <Route exact path="/faq" element={<FaqPage />} />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route
+          exact
+          path="/terms-and-conditions"
+          element={<TermsAndConditionsPage />}
+        />
+        <Route exact path="/navbar" element={<Nav />} />
       </Routes>
     </BrowserRouter>
   );

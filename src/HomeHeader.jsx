@@ -5,9 +5,9 @@ function HomeHeader() {
     navigate("/menu/veg-pizzas", { relative: true });
   };
   return (
-    <div className="background-header flex items-end justify-center pb-24 pr-96 pt-96">
+    <div className="background-header">
       <button
-        className=" onine-order-button bg-sky-400 font-sans"
+        className="onine-order-button bg-sky-400 font-sans"
         onClick={onClickOrderOnline}
       >
         ORDER ONLINE NOW

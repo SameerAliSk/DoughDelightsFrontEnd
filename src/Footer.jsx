@@ -1,4 +1,5 @@
 import "./footer.css";
+
 import FollowUs from "./followUs";
 function Footer() {
   return (
